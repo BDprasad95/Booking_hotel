@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25163" started-at="2022-04-07T16:21:07 IST" finished-at="2022-04-07T16:21:32 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="25163" started-at="2022-04-07T16:21:07 IST" finished-at="2022-04-07T16:21:32 IST">
+      <class name="Test.BookRoom">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:Test.BookRoom@2de8284b]" name="SetUp" is-config="true" duration-ms="7663" started-at="2022-04-07T16:20:59 IST" finished-at="2022-04-07T16:21:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="BookmyRoom()[pri:0, instance:Test.BookRoom@2de8284b]" name="BookmyRoom" duration-ms="11252" started-at="2022-04-07T16:21:07 IST" finished-at="2022-04-07T16:21:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookmyRoom -->
+        <test-method status="PASS" signature="CheckInDate()[pri:0, instance:Test.BookRoom@2de8284b]" name="CheckInDate" duration-ms="11964" started-at="2022-04-07T16:21:07 IST" finished-at="2022-04-07T16:21:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckInDate -->
+        <test-method status="FAIL" signature="FamilyDetails()[pri:0, instance:Test.BookRoom@2de8284b]" name="FamilyDetails" duration-ms="15107" started-at="2022-04-07T16:21:07 IST" finished-at="2022-04-07T16:21:22 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Increase number of Adults']"}
+  (Session info: MicrosoftEdge=100.0.1185.29)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'PRASAD', ip: '192.168.55.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c1cbc13a711352a6ef200453a531e4c7, findElement {using=xpath, value=//button[@aria-label='Increase number of Adults']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 100.0.1185.29, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:65412}, msedge: {msedgedriverVersion: 99.0.1150.36 (c438621746b29..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65412/devtoo..., se:cdpVersion: 100.0.1185.29, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c1cbc13a711352a6ef200453a531e4c7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Increase number of Adults']"}
+  (Session info: MicrosoftEdge=100.0.1185.29)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'PRASAD', ip: '192.168.55.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c1cbc13a711352a6ef200453a531e4c7, findElement {using=xpath, value=//button[@aria-label='Increase number of Adults']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 100.0.1185.29, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:65412}, msedge: {msedgedriverVersion: 99.0.1150.36 (c438621746b29..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65412/devtoo..., se:cdpVersion: 100.0.1185.29, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c1cbc13a711352a6ef200453a531e4c7
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+at Test.BookRoom.FamilyDetails(BookRoom.java:85)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FamilyDetails -->
+        <test-method status="PASS" signature="Onpage()[pri:0, instance:Test.BookRoom@2de8284b]" name="Onpage" duration-ms="6734" started-at="2022-04-07T16:21:07 IST" finished-at="2022-04-07T16:21:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Onpage -->
+        <test-method status="PASS" signature="SearchButton()[pri:0, instance:Test.BookRoom@2de8284b]" name="SearchButton" duration-ms="25026" started-at="2022-04-07T16:21:07 IST" finished-at="2022-04-07T16:21:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchButton -->
+        <test-method status="FAIL" signature="teardown()[pri:0, instance:Test.BookRoom@2de8284b]" name="teardown" is-config="true" duration-ms="10851" started-at="2022-04-07T16:21:32 IST" finished-at="2022-04-07T16:21:43 IST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: MicrosoftEdge=100.0.1185.29)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'PRASAD', ip: '192.168.55.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c1cbc13a711352a6ef200453a531e4c7, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 100.0.1185.29, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:65412}, msedge: {msedgedriverVersion: 99.0.1150.36 (c438621746b29..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65412/devtoo..., se:cdpVersion: 100.0.1185.29, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c1cbc13a711352a6ef200453a531e4c7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: MicrosoftEdge=100.0.1185.29)
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'PRASAD', ip: '192.168.55.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c1cbc13a711352a6ef200453a531e4c7, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 100.0.1185.29, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:65412}, msedge: {msedgedriverVersion: 99.0.1150.36 (c438621746b29..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65412/devtoo..., se:cdpVersion: 100.0.1185.29, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c1cbc13a711352a6ef200453a531e4c7
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:452)
+at Test.ExtentReportsFactory.teardown(ExtentReportsFactory.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:344)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Test.BookRoom -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
